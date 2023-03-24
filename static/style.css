@@ -64,3 +64,8 @@ body {
     background-color: black;
     border:2px solid rgb(64, 63, 63) ;
 }
+
+iframe {
+    margin: 0 auto;
+    width: 100%;
+}
