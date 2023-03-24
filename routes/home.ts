@@ -11,7 +11,9 @@ app.get("/", async(req, res) => {
 ${await posts()}
   </div>`
 
-  const html_text = html("Kawaragi | Blog", css_link, css_path, body)
+  const favicon_link: string = "https://raw.githubusercontent.com/triistam/website/main/static/favicon.ico"
+
+  const html_text = html("Kawaragi | Blog", css_link, css_path, body, favicon_link);
 
   res.send(html_text);
 });

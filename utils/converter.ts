@@ -10,6 +10,10 @@ export async function MarkDownToHTML(filename: string): Promise<string> {
     Deno.cwd() + `/posts/${filename}.md`,
   );
 
+  const favicon_link: string = "https://raw.githubusercontent.com/triistam/website/main/static/favicon.ico";
+  // await Deno.cwd() + '/static/favicon.ico' 
+  // "https://raw.githubusercontent.com/triistam/website/main/static/favicon.ico";
+
   const converter = new showdown.Converter({
     ghCompatibleHeaderId: true,
     openLinksInNewWindow: true,
@@ -19,5 +23,5 @@ export async function MarkDownToHTML(filename: string): Promise<string> {
 
   title = title.charAt(0).toUpperCase() + title.slice(1);
   await showdown.setFlavor("github");
-  return to_html(title, css_link,css_path, converter.makeHtml(markdown)).replaceAll('language-','language ')
+  return to_html(title, css_link,css_path, converter.makeHtml(markdown), favicon_link).replaceAll('language-','language ')
 }
