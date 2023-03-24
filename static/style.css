@@ -47,5 +47,20 @@ body {
     font-size: large;
     text-transform: capitalize;
     color: rgb(218, 23, 23);
+
+}
+
+.language {
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
     
+
+}
+
+.code {
+    border-radius: 6.9px;
+    width: 85%;
+    padding: 10px;
+    background-color: black;
+    border:2px solid rgb(64, 63, 63) ;
 }

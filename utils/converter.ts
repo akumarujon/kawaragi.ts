@@ -19,5 +19,5 @@ export async function MarkDownToHTML(filename: string): Promise<string> {
 
   title = title.charAt(0).toUpperCase() + title.slice(1);
   await showdown.setFlavor("github");
-  return to_html(title, css_link,css_path, converter.makeHtml(markdown))
+  return to_html(title, css_link,css_path, converter.makeHtml(markdown)).replaceAll('language-','language ')
 }
