@@ -41,3 +41,11 @@ body {
     margin-top: 10px;
     font-size: 27px;
 }
+
+.link {
+    text-decoration: none;
+    font-size: large;
+    text-transform: capitalize;
+    color: rgb(218, 23, 23);
+    
+}
