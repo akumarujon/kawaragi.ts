@@ -1,5 +1,8 @@
-# Kawaragi | Blog
+
+<h1 align="center">Kawaragi | Blog</h1
+
 Blog app reads posts from Markdown files.
+
 
 ## Getting started.
 ### Installation
