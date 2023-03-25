@@ -1,4 +1,10 @@
-export default function (title: string, link: string, style: string, body: string, favicon:string): string {
+export default function (
+  title: string,
+  link: string,
+  style: string,
+  body: string,
+  favicon: string,
+): string {
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
