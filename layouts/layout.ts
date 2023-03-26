@@ -22,6 +22,7 @@ export default function (
     <h1>Kawaragi<h1>
 
     <a href="https://kawaragi.deno.dev">Home</a>
+    <a href="https://github.com/triistam/kawaragi.ts">Source</a>
   </div>
 </div>
 
