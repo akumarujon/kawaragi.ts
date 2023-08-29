@@ -8,7 +8,7 @@ Blog app reads posts from Markdown files.
 ### Installation
 Clone this repository
 ```bash
-git clone https://github.com/triistam/kawaragi.ts
+git clone https://github.com/akumarujon/kawaragi.ts
 ```
 
 ### Run locally:
